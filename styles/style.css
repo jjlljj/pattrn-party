@@ -1,0 +1,18 @@
+.site-header {
+  align-items: center;
+  background: #2F2235;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+}
+
+.site-header h1 {
+  margin: 20px 30px;
+  font-size: 24px;
+}
+
+.site-header h3 {
+  margin: 20px 30px;
+  font-size: 18px;
+}
