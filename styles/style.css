@@ -1,0 +1,27 @@
+.site-header {
+  align-items: center;
+  background: #2F2235;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+}
+
+.site-header h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 20px 60px;
+  font-size: 28px;
+}
+
+.site-header h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 20px 60px;
+  font-size: 20px;
+}
+
+.color-secondary {
+  color: #34D1D1;
+}
