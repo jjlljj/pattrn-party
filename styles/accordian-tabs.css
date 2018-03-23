@@ -1,5 +1,5 @@
 .accordian-tabs {
-
+  width: 80%;
 }
 
 .accordian-tabs .tab-wrap {
@@ -10,5 +10,25 @@
   display: flex;
 }
 
-.tab-wrap 
+.tab-wrap {
 
+}
+
+.accordian-tab {
+
+}
+
+.tab-content {
+}
+
+.tab-img-wrap {
+  background: #f2f2f2;
+  display: inline-block;
+  height: 340px;
+  width: 280px;
+}
+
+.tab-text {
+  display: inline-block;
+  max-width: 600px;
+}
