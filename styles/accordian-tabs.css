@@ -1,0 +1,34 @@
+.accordian-tabs {
+  width: 80%;
+}
+
+.accordian-tabs .tab-wrap {
+
+}
+
+.accordian-tabs .tab-wrap ul {
+  display: flex;
+}
+
+.tab-wrap {
+
+}
+
+.accordian-tab {
+
+}
+
+.tab-content {
+}
+
+.tab-img-wrap {
+  background: #f2f2f2;
+  display: inline-block;
+  height: 340px;
+  width: 280px;
+}
+
+.tab-text {
+  display: inline-block;
+  max-width: 600px;
+}
