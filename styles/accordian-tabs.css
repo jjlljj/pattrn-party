@@ -28,6 +28,8 @@
   background: white;
   border: 1px solid #D1D2D3;
   border-bottom: none;
+  color: #666666;
+  font-weight: 700;
 }
 
 .tab-content {
