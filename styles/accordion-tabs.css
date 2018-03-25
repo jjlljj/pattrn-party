@@ -3,10 +3,6 @@
   width: 80%;
 }
 
-.accordion-tabs .tab-wrap {
-
-}
-
 .accordion-tabs .tab-wrap ul {
   display: flex;
 }
@@ -52,7 +48,7 @@
 }
 
 .tab-text-wrap h3 {
-  border-bottom: 2px solid #f2f2f2;
+  border-bottom: 1px solid #D1D2D3;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -63,4 +59,43 @@
   font-size: 18px;
   line-height: 22px;
   margin: 15px 0;
+}
+
+
+@media screen and ( max-width: 700px ) {
+  .tabs-list {
+    flex-wrap: wrap;
+    border: 1px solid #D1D2D3;
+  }
+
+  .accordion-tab {
+    width: 100%;
+    text-align: left;
+    border: none; 
+    border-top: 1px solid white;
+    border-bottom: none;
+  }
+
+  .active {
+    border: 1px solid #D1D2D3;
+  }
+
+  .tab-content {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .tab-img-wrap {
+    margin: 0;
+    height: 160px;
+    width: 100%;
+  }
+
+  .tab-title {
+    margin: 10px 20px;
+  }
+  
+  .tab-text {
+    margin: 10px 20px 20px;
+  }
 }
