@@ -59,4 +59,15 @@ const clearActiveTabs = () => {
   tabs.map(tab => tab.setAttribute('class', 'accordion-tab'))
 }
 
+const toggleMobileNav = event => {
+  event.preventDefault()
+  const headerNav = document.querySelector('.header-nav')
+
+  if ([...headerNav.classList].includes('hidden')) {
+    headerNav.setAttribute('class', 'header-nav')
+  } else {
+    headerNav.setAttribute('class', 'header-nav hidden')
+  }
+}
+
 document.onload = renderTabs(mockTabData)
