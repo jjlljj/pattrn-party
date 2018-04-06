@@ -10,6 +10,12 @@
   display: flex;
 }
 
+.mobile-wrap {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 .user-img {
   background: #f2f2f2;
   border-radius: 50%;
@@ -18,14 +24,23 @@
   width: 50px;
 }
 
+.mobile-link {
+  color: #666666;
+  display: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
 
 .header-nav ul {
+  align-items: center;
   display: flex;
   margin: 10px;
 }
 
 .nav-link {
-  margin: 10px;
+  color: #666666;
+  margin: 15px;
 }
 
 .nav-search {
@@ -33,5 +48,22 @@
 }
 
 .nav-search input {
-  padding: 5px;
+  border: 1px solid #666666;
+  color: #666666;
+  font-size: 14px;
+  padding: 10px;
+}
+
+@media screen and ( max-width: 900px ) {
+  .mobile-wrap {
+    width: 100%;
+  }
+
+  .mobile-link {
+    display: flex;
+  }
+
+  .header-nav {
+    display: none;
+  }
 }
