@@ -10,6 +10,10 @@
   display: flex;
 }
 
+.hidden {
+  display: auto;
+}
+
 .mobile-wrap {
   align-items: center;
   display: flex;
@@ -26,11 +30,11 @@
 
 .mobile-link {
   color: #666666;
+  cursor: pointer;
   display: none;
   font-size: 20px;
   margin-right: 20px;
 }
-
 
 .header-nav ul {
   align-items: center;
@@ -69,8 +73,8 @@
     display: flex;
   }
 
-  .header-nav {
-    /*display: none;*/
+  .hidden {
+    display: none;
   }
   
   .header-nav {
